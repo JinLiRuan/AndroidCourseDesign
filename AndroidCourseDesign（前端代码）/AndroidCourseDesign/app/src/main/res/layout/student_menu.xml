@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/back"
+    >
+
+
+
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sise"
+            />
+
+
+    <TableRow>
+
+
+        <Button
+                android:id="@+id/PersonInfo"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="个人信息"
+            android:textSize="20sp"
+            android:background="@drawable/button"
+            />
+
+
+        <Button
+            android:id="@+id/course"
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="查看课表"
+            android:textSize="20sp"
+            android:background="@drawable/button"
+
+            />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/score"
+            android:layout_marginLeft="50dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="查看成绩"
+            android:textSize="20sp"
+            android:background="@drawable/button"
+            />
+
+
+        <Button
+            android:id="@+id/teacher"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="辅导员信息"
+            android:textSize="20sp"
+            android:background="@drawable/button"
+
+            />
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/updatePassword"
+            android:layout_marginLeft="50dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="修改密码"
+            android:textSize="20sp"
+            android:background="@drawable/button"
+            />
+
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="退出系统"
+            android:textSize="20sp"
+            android:background="@drawable/button"
+
+            />
+
+    </TableRow>
+
+</TableLayout>

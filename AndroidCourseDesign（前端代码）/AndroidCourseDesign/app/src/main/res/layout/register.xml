@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    >
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:text="名字："
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/input_box"
+            android:gravity="center"
+            android:hint="你的名字"
+            android:maxLines="11"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:textColor="@color/grey_text" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学号："
+            android:textSize="20sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="20dp"
+
+
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+
+            android:background="@drawable/input_box"
+            android:gravity="center"
+            android:hint="你的学号"
+            android:inputType="numberPassword"
+            android:maxLines="11"
+            android:textColor="@color/grey_text" />
+
+    </TableRow>
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    >
+
+
+    <TableRow>
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="80dp"
+            android:text="注册"
+            android:background="@color/title_bar"
+            />
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:text="返回"
+            android:background="@color/title_bar"
+            />
+
+
+    </TableRow>
+
+</TableLayout>
+
+
+
+
+
+
+
+</TableLayout>

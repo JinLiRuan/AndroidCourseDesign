@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    >
+
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择要录入的专业成绩："
+        android:textSize="25sp"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        >
+
+
+
+        <RadioButton
+            android:id="@+id/software"
+            android:layout_marginTop="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="软件工程"
+            android:textSize="20sp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/bigData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大数据"
+            android:textSize="20sp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/compute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电子计算机工程"
+            android:textSize="20sp"
+
+            />
+
+    </RadioGroup>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/yes"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:textSize="20sp"
+            android:background="@color/red_light"
+            />
+        <Button
+            android:id="@+id/no"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="50sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textSize="20sp"
+            android:background="@color/red_light"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

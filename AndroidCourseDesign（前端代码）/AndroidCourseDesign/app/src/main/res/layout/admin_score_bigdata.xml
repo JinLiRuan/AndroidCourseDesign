@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学号:"
+            android:textSize="20sp"
+            android:layout_marginLeft="20sp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/bd_sno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入学号"
+            />
+
+        <TextView
+            android:layout_marginStart="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名:"
+            android:textSize="20sp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/bd_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入姓名"
+            />
+
+    </LinearLayout>
+
+
+
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hadoop大数据处理:"
+            android:textSize="20sp"
+            android:layout_marginLeft="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/bd_score1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入成绩"
+            android:inputType="number"
+            />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android开发:"
+            android:textSize="20sp"
+            android:layout_marginLeft="20sp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/bd_score2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入成绩"
+            android:inputType="number"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spark技术:"
+            android:textSize="20sp"
+            android:layout_marginLeft="20sp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/bd_score3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入成绩"
+            android:inputType="number"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/bd_yes"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20sp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="确定"
+            android:textSize="20sp"
+            android:background="@color/red_light"
+            />
+
+        <Button
+            android:id="@+id/bd_no"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textSize="20sp"
+            android:background="@color/red_light"
+            />
+
+
+    </TableRow>
+
+
+
+
+
+</TableLayout>
+
+
+
+</LinearLayout>

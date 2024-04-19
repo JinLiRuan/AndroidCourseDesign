@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:shrinkColumns="0,1,2,3,4,5,6"
+
+    >
+    
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="星期/节数"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:layout_marginBottom="0.5dip"
+            android:layout_marginLeft="0.5dip"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周一"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周二"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周三"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周四"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周五"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周六"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周日"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+
+            />
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android开发\n9:00-10.20\nA405"
+            android:singleLine="false"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:singleLine="false"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android开发\n9:00-10.20\nA405"
+            android:singleLine="false"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spring\n15:30-17:00\nU102"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+
+            />
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二"
+            android:layout_weight="1"
+            android:textColor="#131313"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hibernate\n10:40-12.00\nC203"
+            android:singleLine="false"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android开发\n9:00-10.20\nA405"
+            android:singleLine="false"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hibernate\n10:40-12.00\nC203"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="三"
+            android:layout_weight="1"
+
+            android:textColor="#131313"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android开发\n9:00-10.20\nA405"
+            android:singleLine="false"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spring\n15:30-17:00\nU102"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spring\n15:30-17:00\nU102"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spring\n15:30-17:00\nU102"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="四"
+            android:layout_weight="1"
+
+            android:textColor="#131313"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spring\n15:30-17:00\nU102"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android开发\n9:00-10.20\nA405"
+            android:singleLine="false"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android开发\n9:00-10.20\nA405"
+            android:singleLine="false"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spring\n15:30-17:00\nU102"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+    </TableRow>
+
+
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="五"
+            android:layout_weight="1"
+
+            android:textColor="#131313"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hibernate\n10:40-12.00\nC203"
+            android:singleLine="false"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hibernate\n10:40-12.00\nC203"
+            android:singleLine="false"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hibernate\n10:40-12.00\nC203"
+            android:textColor="#131313"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+    </TableRow>
+
+
+
+</TableLayout>
